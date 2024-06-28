@@ -1,0 +1,32 @@
+{
+  "name": "qotify",
+  "version": "1.0.0",
+  "description": "A web application to play audio files, in short web audio player",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test-build": "npx tailwindcss -i ./src/assets/css/input.css -o ./src/assets/css/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/snakeeyes981/qotify.git"
+  },
+  "keywords": [
+    "music",
+    "mp3",
+    "audioplayer",
+    "spotify",
+    "streaming",
+    "songs",
+    "listen"
+  ],
+  "author": "Hassan Yaseen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/snakeeyes981/qotify/issues"
+  },
+  "homepage": "https://github.com/snakeeyes981/qotify#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.4.4"
+  }
+}
